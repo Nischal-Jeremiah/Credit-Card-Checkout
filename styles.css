@@ -1,0 +1,123 @@
+/* Adjusting Content */
+
+body {
+    background-color: #d3d8df;
+    margin: 5rem 25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 1.3rem;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    
+}
+
+#resizing {
+    padding: 2rem 4rem;
+}
+
+#payment-details {
+    padding: 0 0 2rem 0;
+}
+
+/* Changing Text Color */
+
+p {
+    color: #27374D;
+}
+
+/* Email Address Input Design */
+
+#emailInput {
+
+    width: 20rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+/* Credit Card Number Input Design */
+
+.cc-num input::placeholder {
+    letter-spacing: 0.5rem;
+}
+
+#cstCCNumber {
+    
+    width: 20rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+
+}
+
+/* Expiry Date Design */
+
+.exp {
+    
+}
+
+#inputExpDate {
+    width: 20rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+/* CVV Design */
+
+.cvv input::placeholder {
+    letter-spacing: 0.5rem;
+}
+
+#cc-cvv {
+    width: 20rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+/* Promo Design */
+
+.checkbox {
+    position: absolute;
+}
+
+#promo {
+    padding: 0 1.5rem;
+}
+
+/* Price Design */
+
+.price {
+    padding-left: 3rem;
+}
+
+/* Button Edit */
+
+#bt {
+    background: #0d6dfd;
+    background-image: -webkit-linear-gradient(top, #0d6dfd, #0d6efd);
+    background-image: -moz-linear-gradient(top, #0d6dfd, #0d6efd);
+    background-image: -ms-linear-gradient(top, #0d6dfd, #0d6efd);
+    background-image: -o-linear-gradient(top, #0d6dfd, #0d6efd);
+    background-image: linear-gradient(to bottom, #0d6dfd, #0d6efd);
+    color: #fff;
+    border: #0d6dfd;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+#bt:hover {
+    background: #0b5ed7;
+    background-image: -webkit-linear-gradient(top, #0b5ed7, #0b5ed7);
+    background-image: -moz-linear-gradient(top, #0b5ed7, #0b5ed7);
+    background-image: -ms-linear-gradient(top, #0b5ed7, #0b5ed7);
+    background-image: -o-linear-gradient(top, #0b5ed7, #0b5ed7);
+    background-image: linear-gradient(to bottom, #0b5ed7, #0b5ed7);
+}
+
+.btn-increase {
+    padding: 1rem;
+}
